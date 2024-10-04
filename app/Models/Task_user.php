@@ -9,6 +9,11 @@ class Task_user extends Model
 {
     use HasFactory;
 
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
     protected $fillable = [
         'task_id',
         'user_id'
